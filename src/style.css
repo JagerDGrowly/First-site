@@ -95,7 +95,7 @@ header {
 
     margin-top: 10%;
 
-    color: white;
+    color: #FFFFFF;
 }
 
 .header-content h1 {
@@ -112,7 +112,7 @@ header {
 
 .header-content a {
     background-color: #00A651;
-    color: rgb(255, 255, 255);
+    color: #FFFFFF;
 
     font-weight: 600;
     font-size: 24px;
@@ -132,8 +132,54 @@ main {
     /* background-color: black; */
 }
 
-main div {
+main .container {
+    justify-content: center;
+    width: 91%;
+}
+
+.service {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    width: 100%;
+    height: 430px;
+    /* background-color: #00000031; */
+}
+
+.service h1 {
+    margin: 0;
+}
+
+.service-cards {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 295px;
+    width: 100%;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    width: 416px;
+    height: 232px;
+
+    border-radius: 15px;
+    background-color: #F9F9F9;
+}
+
+.service-card-text {
+    margin: 20px 0px 5px 0px;
+}
+
+.service-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    width: 80%;
+    height: 100%;
 }
