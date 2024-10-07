@@ -216,7 +216,89 @@ main .container {
     background: no-repeat center/120% url(../assets/backgrounds/rating_background.png);
 }
 
+.rating .container {
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.rating-text {
+    text-align: center;
+
+    position: relative;
+    bottom: 15px;
+}
+
+.rating-text h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.rating-text p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
 .rating-cards {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.rating-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 250px;
+    height: 250px;
+
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.rating-card img {
+    position: absolute;
+    top: 43px;
+}
+
+.rating-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    position: absolute;
+    bottom: 22px;
+}
+
+.rating-card:nth-child(3) .rating-card-text,
+.rating-card:nth-child(4) .rating-card-text {
+    bottom: 50px;
+}
+
+.rating-card:nth-child(1) img {
+    top: 41px;
+}
+
+.rating-card:nth-child(3) img {
+    top: 40px;
+}
+
+.rating-card:nth-child(4) img {
+    top: 44px;
+}
+
+.rating-card-text h2 {
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+}
+
+.rating-card-text p {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
