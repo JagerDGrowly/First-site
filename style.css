@@ -149,6 +149,8 @@ main .container {
 
 .service h1 {
     margin: 0;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 .service-cards {
