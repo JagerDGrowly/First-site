@@ -21,8 +21,8 @@ header {
     justify-content: center;
     width: 100%;
     height: 120vh;
-    background-image: url(../assets/backgrounds/header_background_cover.png), 
-                      url(../assets/backgrounds/header_background.png);
+    background-image: url(assets/backgrounds/header_background_cover.png), 
+                      url(assets/backgrounds/header_background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -214,7 +214,7 @@ main .container {
     width: 100%;
     height: 733px;
 
-    background: no-repeat center/120% url(../assets/backgrounds/rating_background.png);
+    background: no-repeat center/120% url(assets/backgrounds/rating_background.png);
 }
 
 .rating .container {
